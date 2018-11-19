@@ -21,7 +21,7 @@
     allow_reboot: false
   tasks:
     - name: Apply mass-updates role
-      include_role:
+      import_role:
         name: mass-updates
 
 - name: Update test systems, exclude key systems
@@ -36,7 +36,7 @@
     allow_reboot: true
   tasks:
     - name: Apply mass-updates role
-      include_role:
+      import_role:
         name: mass-updates
 
 - name: Update core systems (skip groups already processed)
