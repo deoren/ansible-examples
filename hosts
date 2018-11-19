@@ -1,0 +1,16 @@
+
+[monitoring]
+nag1
+
+[dbs]
+db1
+db2
+
+[tier1]
+important1
+
+[testing]
+localbox
+
+[all:vars]
+ansible_connection=local

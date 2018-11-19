@@ -1,0 +1,32 @@
+---
+
+# Fetch scripts needed for patching work
+- name: Task 1
+  debug:
+    msg: Task 1
+  changed_when: False
+    # Tagging with "check", "report" since this script is needed for those tasks
+  tags:
+    - fetch
+    - check
+    - report
+
+- name: Task 2
+  debug:
+    msg: Task 2
+  changed_when: False
+    # Tagging with "check", "report" since this script is needed for those tasks
+  tags:
+    - fetch
+    - check
+    - report
+
+- name: Task 3
+  debug:
+    msg: Task 3
+  changed_when: False
+    # Tagging with "check", "report" since this script is needed for those tasks
+  tags:
+    - fetch
+    - check
+    - report

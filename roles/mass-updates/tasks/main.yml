@@ -1,0 +1,6 @@
+---
+
+- name: Check for patches, send in report to ticketing system of available updates
+  include_tasks: prep.yml
+
+...

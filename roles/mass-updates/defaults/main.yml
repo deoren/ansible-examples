@@ -1,0 +1,16 @@
+---
+
+# Default to NOT patching our main server tier
+update_core_servers: false
+
+# Assume there are none unless proven otherwise
+updates_available: false
+
+# Default state, should be flipped whenever a full outage is required
+restart_all_relays: false
+
+# Should be flipped after patches applied and check_restarts script detects
+# a need for it
+restart_needed: false
+
+...
