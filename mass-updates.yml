@@ -56,3 +56,4 @@
         name: mass-updates
       # Defaults to false. This has to be overriden at command-line to run.
       when: update_core_servers
+      tags: core
